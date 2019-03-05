@@ -1,0 +1,230 @@
+body{
+
+margin:0px;
+padding:0;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+#main{
+    width: 100%;
+    height:100vh;
+     
+}
+
+.banner{
+    width:100%;
+    height: 100vh;
+    overflow:hidden;
+    display: flex;
+    align-items:center;
+}
+
+.banner video{
+    position: absolute;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    padding-top: 110px;
+    pointer-events: none;
+    }
+.screen{
+    position:absolute;
+    width: 200%;
+    height: 200%;
+   transform:translate(-50%,-25%);
+    background-size: cover; 
+   background:rgba(0, 0, 0, 0.5);
+}
+.login-box{
+    position: absolute;
+    top: 75%;
+    left: 76%;
+    transform: translate(-50%,-50%);
+    width: 378px;
+    padding: 16px 26px;
+    background: rgba(241, 240, 240, 0.8);
+    box-shadow: inset -1px 5px 20px 24px rgba(255, 255, 255, 0.1);
+    border-radius: 19px;
+}
+.login-box h2{
+    margin:0 40px 40px;
+    padding:0;
+    text-align:center;
+}
+.login-box .form-input{
+    position:relative;
+    margin:20px 0;
+    }
+.login-box .form-input input{
+    outline: rgb(110, 105, 105);
+    height: 40px;
+    padding: 10px;
+    box-sizing: border-box;
+    width: 98%;
+    border: 1px solid rgba(0,0,0,.5);
+    background: transparent;
+    font-size: 18px;
+    border-block-end-color: inherit;
+    border-radius: 16px;
+    border-block-end-style: inherit; 
+}
+.login-box .form-input input[type="submit"]
+{
+    background:rgb(85, 83, 83);
+    color:#fff;
+    border:none;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.login-box .form-input input[type="submit"]:hover{
+    background:rgb(216, 211, 211);
+}
+.signup{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    align-content: center;
+    font-size: 120%;
+    margin-left: 80%;
+}
+.home{
+    width: 100%;
+    height: 101px;
+    padding-top: 3px;
+    background-position:0px 50px;
+}
+.about{
+    width:100%;
+    height:550px;
+    padding-top:60px;
+}
+.about #about{
+    height: 150px;
+    margin-top: -46px;
+    text-align:center;
+    line-height: 50px;
+    font-size:20px;
+    text-transform: uppercase;
+
+}
+
+.about h2{
+    height: 50px;
+    text-align: center;
+    line-height: 38px;
+    font-size: 20pt;
+    margin-top: 56px;
+    text-transform: uppercase;
+}
+.tour h2{
+    height: 3px;
+    margin-top: 75px;
+    text-align: center;
+    line-height: 0;
+    font-size: 20pt;
+    text-transform: uppercase;
+    
+}
+.about div{
+    width: 84%;
+    margin: auto;
+    text-align: justify;
+    line-height: 2.8;
+    box-shadow: 0px 0px 10px #222;
+    padding: 30px;
+    margin-top: 47px;
+}
+
+.about div img{
+    width:450px;
+    border:5px solid #fff;
+    float:left;
+    margin-right:20px
+}
+.tour #tour{
+   
+    margin-right: 17px;
+    margin-top: 35px;
+    height: 150px;
+    margin-top: 375px;
+    text-align: center;
+    line-height: 50px;
+    font-size: 20px;
+    text-transform: uppercase;
+}  
+/*.tour-item h1{
+    height: 14px;
+    padding: 52px;
+    text-align: center;
+    line-height: 321px;
+    font-size: 11pt;
+    text-transform: uppercase;
+    margin-right: 97px;
+
+}*/
+.tour  .tour-row{
+    width:95%;
+    margin:auto;
+    height:450px;
+    display:flex;
+    text-align:center;
+    margin-top: 90px;
+}
+.tour .tour-row .tour-item{
+    width:30%;
+    margin:auto;
+    height:300px;
+    display:flex;
+    color:#222;
+    box-shadow:0px 0px 10px #000;
+    transition:1s linear,color 0.10s linear;
+    border-radius: 10px;
+}
+.tour .tour-row .tour-item img{
+    width: 96%;
+    margin: auto;
+    height: 230 px;
+    display: flex;
+    margin-left: 8px;
+    padding-top:20px; 
+}  
+.tour .tour-row .tour-item:hover{
+    background-color: #222;
+    color:#fff;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
